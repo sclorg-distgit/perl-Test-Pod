@@ -1,0 +1,32 @@
+From 5c3dbcc71a5eb9b91ea5cce972d3e38e3b4ca194 Mon Sep 17 00:00:00 2001
+From: "David E. Wheeler" <david@justatheory.com>
+Date: Wed, 12 Feb 2014 16:52:24 -0800
+Subject: [PATCH] Change license statement in README to "Same as Perl".
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+To bring it in line with the license listed in `META.yml` and in `Pod.pm`,
+thus finishing the other half of the change started in ca28cade.
+
+Thanks to @ppisar for the report (closes #5).
+
+Signed-off-by: Petr Písař <ppisar@redhat.com>
+
+Petr Pisar: Ported to 1.48.
+
+diff --git a/README b/README
+index b04cf78..23013bd 100644
+--- a/README
++++ b/README
+@@ -28,5 +28,5 @@ Copyright and Licence
+ 
+ Copyright 2006-2010, Andy Lester. Some Rights Reserved.
+ 
+-You may use, modify, and distribute this package under the terms as the
+-Artistic License v2.0 or GNU Public License v2.0.
++This module is free software; you can redistribute it and/or modify it under
++the same terms as Perl itself.
+-- 
+1.8.5.3
+
